@@ -1,0 +1,116 @@
+body {
+    color: black;
+    background-color: rgb(224, 213, 161);
+}
+
+header {
+    background-color: rgb(235, 234, 193);
+    align-items: end;
+}
+
+main {
+    max-width: 1000px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: rgb(175, 180, 105);
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+h1 {
+    margin: 5px 5% 0 2px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.resume h3 {
+    margin-left: 15px;
+}
+
+.resume h4 {
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.resume p {
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.resume ul {
+    margin-left: 20px;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    background-color: eggshell;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: rgb(235, 234, 193);
+}
+
+form {
+    display: block;
+    margin: 10px 0;
+}
+
+form label {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form input {
+    width: 80%;
+    max-width: 600px;
+}
+
+form textarea {
+    width: 80%;
+    max-width: 600px;
+}
+
+.error {
+    color: red;
+}
+
+@media only screen and (max-width: 500px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .nav-tabs .nav-link {
+        max-width: 25vw;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    main {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    form input {
+        width: 100%;
+    }
+
+    form textarea {
+        width: 100%;
+    }
+}
